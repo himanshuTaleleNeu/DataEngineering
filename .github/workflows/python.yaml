@@ -20,4 +20,4 @@ jobs:
         pip install pylint
     - name: ECHO hello world 
       run: |
-        cd hello   
+        echo "hello world" 
