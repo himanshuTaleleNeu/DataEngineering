@@ -56,8 +56,7 @@ docker run -it \
       dpage/pgadmin4
 
 - to injest data 
-URL="https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz"
-
+url = github data repo
 python injest_data.py \
     --user=root \
     --password=root \
